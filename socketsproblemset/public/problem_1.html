@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>Problem 1</title>
+<link href="socketsprobset.css" rel="stylesheet">
+</head>
+
+<body>
+    <div id="nav-bar">
+        <a href="problem_1.html">Problem 1</a>
+        <a href="problem_2.html">Problem 2</a>
+        <a href="problem_3.html">Problem 3</a>
+        <a href="problem_4.html">Problem 4</a>
+    </div>
+    <h1>Problem 1: Red Squares</h1>
+    <p>Every time a user clicks their mouse, draw a <strong>red rectangle</strong> (50px by 50px) on the canvas at a
+      <strong>random location</strong>.</p>
+    <p>Every connected client will see the <strong>same red rectangle</strong> appear on their canvas as well.</p>
+    <p><strong>HINT:</strong> The information you will send to the server will be the x and y coordinates of your randomly placed rectangle.</p>
+    <script src="p5.min.js"></script>
+    <script src="socket.io.js"></script>
+    <script src="problem_1.js"></script>
+</body>
+</html>

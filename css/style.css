@@ -1,0 +1,302 @@
+#logo {
+    height: 50px;
+    
+}
+
+.jumbotron-one {
+    background-image: url("../images/jumbotron.jpg");
+    height: 100vh;
+    border-radius: 0px;
+    background-size: cover;
+}
+.jumbobio {
+    width: 600px;
+    float: left;
+    margin-top: 70px;
+    margin-left: 80px;
+    
+}
+#hello {
+    float: left; 
+    color: white;
+    font-size: 105px;
+    font-family: 'Abel', sans-serif;
+    
+}
+
+#bio {
+    
+    float: left; 
+    color: white;
+    font-family: 'Abel', sans-serif;
+    font-size: 30px;
+    margin-left: 20px;
+    
+    
+}
+
+.work-button {
+    color: white;
+    background: darkorange;
+    padding: 20px;
+    float: left;
+    width: 600px;
+    text-align: center;
+    font-family: 'Abel', sans-serif;
+    font-size: 25px;
+    margin-top: 20px;
+}
+
+.work-button:hover {
+    color: whitesmoke;
+    background: orange;
+    padding: 20px;
+    text-decoration: none;
+    float: left;
+    width: 600px;
+    text-align: center;
+    font-family: 'Abel', sans-serif;
+    font-size: 25px;
+    margin-top: 20px;
+}
+
+#previous {
+    text-align: center;
+    font-size: 105px;
+    font-family: 'Abel', sans-serif;
+    color: darkorange;
+    padding-top: 50px;
+    
+    
+}
+
+#thumbnail {
+    height: 200px;
+    width: 250px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+/* Google Fonts */
+@import url(https://fonts.googleapis.com/css?family=Open+Sans);
+
+.work {
+  	max-width: 100%;
+  	margin: 0 auto;
+    text-align: center;
+  	font-family: 'Open Sans', Arial, sans-serif;
+  	color: #737f82;
+    background-color: #212121;
+    margin-top: -40px;
+    height: 100vh;
+}
+h1 a,
+p a {
+  color: #219a6e;
+}
+section {
+  	width: 100%;
+  	padding: 30px 0;
+  	margin: 40px 0;
+}
+.thumb {
+	
+}
+.thumb-one {
+	background-image: url(../images/printspot2.jpg);
+	background-repeat: no-repeat;
+    background-position: center;
+    background-size: 350px 300px;
+    width: 250px;
+	height: 250px;
+	border-radius: 50%;
+	display: inline-block;
+	margin: 30px;
+	box-shadow: inset 0 0 0 16px rgba(255,255,255,0.6), 0 1px 2px rgba(0,0,0,0.1);
+	position: relative;
+	-webkit-transition: all 0.4s ease-in-out;
+	transition: all 0.4s ease-in-out;
+}
+.thumb-two {
+	background-image: url(../images/larrimore.jpg);
+	background-repeat: no-repeat;
+    width: 250px;
+	height: 250px;
+	border-radius: 50%;
+	display: inline-block;
+	margin: 30px;
+	box-shadow: inset 0 0 0 16px rgba(255,255,255,0.6), 0 1px 2px rgba(0,0,0,0.1);
+	position: relative;
+	-webkit-transition: all 0.4s ease-in-out;
+	transition: all 0.4s ease-in-out;
+}
+.thumb-three {
+	background-image: 
+    url(../images/weather.jpg);
+	background-repeat: no-repeat;
+    width: 250px;
+	height: 250px;
+	border-radius: 50%;
+	display: inline-block;
+	margin: 30px;
+	box-shadow: inset 0 0 0 16px rgba(255,255,255,0.6), 0 1px 2px rgba(0,0,0,0.1);
+	position: relative;
+	-webkit-transition: all 0.4s ease-in-out;
+	transition: all 0.4s ease-in-out;
+}
+.thumb-four {
+	background-image: url(../images/paint.jpg);
+	background-repeat: no-repeat;
+    width: 250px;
+	height: 250px;
+	border-radius: 50%;
+	display: inline-block;
+	margin: 30px;
+	box-shadow: inset 0 0 0 16px rgba(255,255,255,0.6), 0 1px 2px rgba(0,0,0,0.1);
+	position: relative;
+	-webkit-transition: all 0.4s ease-in-out;
+	transition: all 0.4s ease-in-out;
+}
+.thumb-one:hover {
+	box-shadow: 
+		inset 0 0 0 1px rgba(255,255,255,0.1),
+		0 1px 2px rgba(0,0,0,0.1);
+}
+.thumb-one:hover .info {
+	-webkit-transform: scale(1);
+	transform: scale(1);
+	opacity: 1;
+}
+.thumb-one:hover {
+	box-shadow: 
+		inset 0 0 0 1px rgba(255,255,255,0.1),
+		0 1px 2px rgba(0,0,0,0.1);
+}
+.thumb-one:hover .info {
+	-webkit-transform: scale(1);
+	transform: scale(1);
+	opacity: 1;
+}
+
+.thumb-two:hover {
+	box-shadow: 
+		inset 0 0 0 1px rgba(255,255,255,0.1),
+		0 1px 2px rgba(0,0,0,0.1);
+}
+.thumb-two:hover .info {
+	-webkit-transform: scale(1);
+	transform: scale(1);
+	opacity: 1;
+}
+
+.thumb-three:hover {
+	box-shadow: 
+		inset 0 0 0 1px rgba(255,255,255,0.1),
+		0 1px 2px rgba(0,0,0,0.1);
+}
+.thumb-three:hover .info {
+	-webkit-transform: scale(1);
+	transform: scale(1);
+	opacity: 1;
+}
+
+.thumb-four:hover {
+	box-shadow: 
+		inset 0 0 0 1px rgba(255,255,255,0.1),
+		0 1px 2px rgba(0,0,0,0.1);
+}
+.thumb-four:hover .info {
+	-webkit-transform: scale(1);
+	transform: scale(1);
+	opacity: 1;
+}
+.info {
+	position: absolute;
+	background: rgba(255, 127, 0, 0.71);
+	width: inherit;
+	height: inherit;
+	border-radius: 50%;
+	opacity: 0;
+	-webkit-transition: all 0.4s ease-in-out;
+	transition: all 0.4s ease-in-out;
+	-webkit-transform: scale(0);
+	transform: scale(0);
+	-webkit-backface-visibility: hidden;
+}
+.info h3 {
+	color: #fff;
+	text-transform: uppercase;
+	letter-spacing: 2px;
+	font-size: 12px;
+	margin: 0 30px;
+	padding: 45px 0 0 0;
+	height: 40px;	
+	text-shadow: 
+		0 0 1px #fff, 
+		0 1px 2px rgba(0,0,0,0.3);
+}
+.info p:hover {
+	opacity: 1;
+}
+.info p span {
+	font-style: italic;
+}
+.info p {
+	color: #fff;	
+	font-family: 'Open Sans', Arial, sans-serif;
+	text-align: center;
+	margin: 10px auto;
+	font-size: 12px;
+	max-width: 90%;
+	border-top: 1px solid rgba(255,255,255,0.5);
+	-webkit-transition: all 1s ease-in-out 0.4s;
+	transition: all 1s ease-in-out 0.4s;
+}
+
+
+
+#myphoto {
+    
+   max-width: 100%;
+    height: auto;
+    float: right;
+    margin-top: -370px;
+}
+
+
+
+
+
+
+
+#aboutmeh1 {
+    
+    background-color: rgba(255, 127, 0, 0.71);
+    display: inline-block;
+    color: white;
+    font-size: 80px;
+    font-family: 'Abel', sans-serif;
+    padding: 30px;
+}
+#pdiv {
+    width: 600px;
+    
+}
+#aboutmep {
+    background-color: rgba(255, 255, 255, 0.71);
+    display: inline-block;
+    color: darkorange;
+    font-size: 20px;
+    font-family: 'Abel', sans-serif;
+    padding: 30px;
+}
+

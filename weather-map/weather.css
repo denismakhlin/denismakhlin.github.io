@@ -1,0 +1,68 @@
+@import url('https://fonts.googleapis.com/css?family=Poppins|Slabo+27px|Open+Sans|Fugaz+One');
+
+body {
+    text-align: center;
+    margin: 0px;
+    background-image: url("images/rain.jpg");
+    background-size: cover;
+}
+
+h1 {
+    font-family: "Fugaz One";
+    font-size: 72px;
+    color: #dbc1ff;
+    text-shadow: 2px 2px #6b2bc4;
+    background-position: center;
+    background-size: cover;
+    padding-top: 30px;
+    padding-bottom: 30px;
+    margin: 0px;
+}
+
+#map {
+  height: 450px;
+  border-radius: 25px;
+}
+
+.main {
+  background-color: rgba(34, 55, 71, 0.8);
+  border-radius: 25px;
+  margin-left: 10%;
+  margin-right: 10%;
+  min-height: 350px;
+  padding: 25px;
+  color: #add4ff;
+  font-family: "Poppins";
+  font-size: 16px;
+}
+
+.content {
+  font-size: 14px;
+  color: black;
+}
+
+img {
+  width: 200px;
+  height: 250px;
+  object-fit: cover;
+}
+
+button {
+    background-color: #ad27bc;
+    color: white;
+    padding: 10px;
+    font-size: 16px;
+    border-radius: 10px;
+    margin: 10px;
+}
+
+input {
+    font-size: 16px;
+    padding: 10px;
+    border-radius: 10px;
+    width: 350px;
+}
+
+span {
+  color: #da77ff;
+}
