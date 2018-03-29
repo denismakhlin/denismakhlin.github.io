@@ -264,13 +264,6 @@ section {
 
 
 
-#myphoto {
-    
-   max-width: 100%;
-    height: auto;
-    float: right;
-    margin-top: -370px;
-}
 
 
 
@@ -287,10 +280,7 @@ section {
     font-family: 'Abel', sans-serif;
     padding: 30px;
 }
-#pdiv {
-    width: 600px;
-    
-}
+
 #aboutmep {
     background-color: rgba(255, 255, 255, 0.71);
     display: inline-block;
