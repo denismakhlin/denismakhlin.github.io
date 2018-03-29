@@ -1,17 +1,17 @@
-@import url('https://fonts.googleapis.com/css?family=Poppins|Slabo+27px|Open+Sans|Fugaz+One');
+@import url('https://fonts.googleapis.com/css?family=Poppins|Slabo+27px|Open+Sans|Righteous');
 
 body {
     text-align: center;
     margin: 0px;
-    background-image: url("images/rain.jpg");
+    background-image: url("images/badair.jpg");
     background-size: cover;
 }
 
 h1 {
-    font-family: "Fugaz One";
-    font-size: 72px;
-    color: #dbc1ff;
-    text-shadow: 2px 2px #6b2bc4;
+    font-family: "Righteous";
+    font-size: 68px;
+    color: #db2e64;
+    text-shadow: 2px 2px #6919ff;
     background-position: center;
     background-size: cover;
     padding-top: 30px;

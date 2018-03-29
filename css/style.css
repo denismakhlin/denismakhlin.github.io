@@ -79,7 +79,10 @@
 
 
 
-
+#myphoto {
+    width: 100%;
+    height: auto;
+}
 
 
 
@@ -108,16 +111,14 @@ section {
   	padding: 30px 0;
   	margin: 40px 0;
 }
-.thumb {
-	
-}
+
 .thumb-one {
 	background-image: url(../images/printspot2.jpg);
 	background-repeat: no-repeat;
     background-position: center;
     background-size: 350px 300px;
-    width: 250px;
-	height: 250px;
+    width: 230px;
+	height: 230px;
 	border-radius: 50%;
 	display: inline-block;
 	margin: 30px;
@@ -129,8 +130,8 @@ section {
 .thumb-two {
 	background-image: url(../images/larrimore.jpg);
 	background-repeat: no-repeat;
-    width: 250px;
-	height: 250px;
+    width: 230px;
+	height: 230px;
 	border-radius: 50%;
 	display: inline-block;
 	margin: 30px;
@@ -143,8 +144,9 @@ section {
 	background-image: 
     url(../images/weather.jpg);
 	background-repeat: no-repeat;
-    width: 250px;
-	height: 250px;
+    background-size: 350px 300px;
+    width: 230px;
+	height: 230px;
 	border-radius: 50%;
 	display: inline-block;
 	margin: 30px;
@@ -156,8 +158,8 @@ section {
 .thumb-four {
 	background-image: url(../images/paint.jpg);
 	background-repeat: no-repeat;
-    width: 250px;
-	height: 250px;
+    width: 230px;
+	height: 230px;
 	border-radius: 50%;
 	display: inline-block;
 	margin: 30px;
